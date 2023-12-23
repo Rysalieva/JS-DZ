@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Бюджетный калькулятор</title>
+</head>
+<body>
+<div class="container">
+    <label for="amountInput">Введите сумму:</label>
+    <input type="number" id="amountInput" placeholder="Сумма" />
+
+    <label for="monthSelect">Выберите месяц:</label>
+    <select id="monthSelect">
+        <option value="31">Январь</option>
+        <option value="28">Февраль</option>
+        <option value="31">Март</option>
+        <option value="30">Апрель</option>
+        <option value="31">Май</option>
+        <option value="30">Июнь</option>
+        <option value="31">Июль</option>
+        <option value="31">Август</option>
+        <option value="30">Сентябрь</option>
+        <option value="31">Октябрь</option>
+        <option value="30">Ноябрь</option>
+        <option value="31">Декабрь</option>
+    </select>
+
+    <button onclick="calculateBudget()">Рассчитать</button>
+
+    <div id="result"></div>
+</div>
+<script src="app.js"></script>
+
+</body>
+</html>
