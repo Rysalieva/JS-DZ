@@ -1,0 +1,48 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #05091f, rgba(248, 93, 154, 0.94));
+
+}
+
+.riddle-container {
+    text-align: center;
+}
+
+.riddle {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+.toggle-button {
+    margin-top: 10px;
+    padding: 12px 24px; /* Увеличенные отступы */
+    font-size: 16px; /* Увеличенный размер шрифта */
+    cursor: pointer;
+    background-color: #0da226;
+    color: #f6f6f8;
+    border: none;
+    border-radius: 6px; /* Увеличенный радиус границы */
+}
+.answer {
+    display: none;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+    word-wrap: break-word;
+    white-space: normal;
+    font-size: 16px;
+}
