@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Изображения</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="button-group">
+      <button class="prev button">Предыдущее</button>
+      <button class="remove button">Удалить текущее</button>
+      <button class="next button">Следующее</button>
+    </div>
+    <input type="file" id="file" accept="image/*" multiple>
+    <label for="file" class="custom-file-upload">
+      Выбрать изображения
+    </label>
+    <div class="slider">
+      <div class="slides"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
